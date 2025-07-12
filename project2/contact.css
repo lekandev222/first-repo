@@ -1,0 +1,236 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contact_hero{
+    background-image: url(breadcrumb.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+.main_navs{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.mainst{
+    display: flex;
+    margin-left: 150px;
+}
+.mainp{
+    margin-right: 50px;
+    font-weight: 500;
+}
+.mainst ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mainu{
+    display: flex;
+}
+.mainh{
+    font-weight: 800;
+}
+.first_nav{
+    background-color: #262626;
+  
+
+}
+.first1{
+    color: white;
+    margin-left: 30px;
+    
+}
+.first2{
+    background-color: #7AA93C;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+border-radius: 5px;
+font-size: 15px;
+margin-right: 10px;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.second_nav{
+    background-color: #263045;
+    color: white;
+}
+.nav2{
+    display: flex;
+    /* text-align: center; */
+    padding: 7px 0px;
+    
+}
+.nav22{
+    margin-left: 25px;
+    font-weight: 400;
+}
+.nav23{
+    margin-left: 85px;
+    font-weight: 400;
+
+}
+.nav21{
+    margin-left: 70px;
+    font-weight: 400;
+
+}
+.nav_svgs{
+    margin-left: 50px;
+}
+.contact_hero_text{
+    text-align: center;
+font-weight: 700;
+    color: white;
+    padding-top: 150px;
+    font-size: 45px;
+}
+.about {
+    background-color: #EDF5F8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about_sec {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.part_2 {
+    margin-left: 40px;
+}
+
+.about_p1 {
+    color: #5E2CED;
+    font-weight: 500;
+}
+
+.about_p2 {
+    color: #575757;
+    font-size: 17px;
+}
+
+.about_main {
+    font-weight: 700;
+    font-size: 32px;
+    color: #1D2746;
+    font-family: "Poppins", sans-serif;
+     font-weight: 790;
+    font-style: normal; 
+
+}
+.about_svg{
+    display: flex;
+}
+.about_svgs{
+    color: #5E2CED;
+    margin-right: 10px;
+}
+.about_h5{
+    color: #4A4A4A;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+   font-style: normal; 
+}
+
+.about_button1 {
+    background-color: #5E2CED;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+
+.about_button2 {
+    border: 1px solid #CAC4C4;
+    padding: 7px 20px;
+    border-radius: 5px;
+}
+.part_3{
+    display: flex;
+margin-top: 30px;
+
+}
+.about_num{
+ color: #5E2CED;
+ font-size: 45px;
+ font-weight: 950;
+}
+.about_button{
+    background-color: #5E2CED;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 50px;
+}
+.about_h4{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: 650;
+    font-size: 30px;
+    color: #4A4A4A;
+}
+.numbers{
+    background-image: url(https://preetheme.com/html/codeit/assets/img/counterbg.jpg);
+    background-size: cover;
+
+}
+.numbersh{
+color: white;
+font-weight: 770;
+font-size: 35px;
+}
+.numbersh2{
+    color: white;
+    font-weight: 500;
+
+}
+.numbers_cards{
+    padding: 30px 0px;
+}
+.team_image{
+    height: 300px;
+}
+.teammp{
+    color: #5E2CED;
+    font-size: 13px;
+    font-weight: 600px;
+}
+.teammh{
+    font-weight: 700;
+color: #1D2746;
+}
+.team_head{
+    text-align: center;
+    justify-content: center;
+}
+.mail12{
+    color: white;
+    font-size: 18px;
+    }
+    .mail11{
+        color: white;
+        font-weight: 700;
+    }
+    .email{
+        background-color: #5E2CED;
+    }
+.mail2{
+    display: flex;
+}
+#mail_button{
+    border: none;
+    background-color: #FF205F;
+    padding: 0px 12px;
+    border-radius: 5px;
+}

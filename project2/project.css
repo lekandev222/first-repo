@@ -1,0 +1,91 @@
+.first_nav{
+    background-color: #262626;
+  
+
+}
+.first1{
+    color: white;
+    margin-left: 30px;
+    
+}
+.first2{
+    background-color: #7AA93C;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+border-radius: 5px;
+font-size: 15px;
+margin-right: 10px;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.second_nav{
+    background-color: #263045;
+    color: white;
+}
+.nav2{
+    display: flex;
+    /* text-align: center; */
+    padding: 7px 0px;
+    
+}
+.nav22{
+    margin-left: 25px;
+    font-weight: 400;
+}
+.nav23{
+    margin-left: 85px;
+    font-weight: 400;
+
+}
+.nav21{
+    margin-left: 70px;
+    font-weight: 400;
+
+}
+.nav_svgs{
+    margin-left: 50px;
+}
+
+.main_navs{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.mainst{
+    display: flex;
+    margin-left: 150px;
+}
+.mainp{
+    margin-right: 50px;
+    font-weight: 500;
+}
+.mainst ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mainu{
+    display: flex;
+}
+.mainh{
+    font-weight: 800;
+}
+.project_hero{
+    background-image: url(breadcrumb.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+.project_hero_text{
+    text-align: center;
+font-weight: 700;
+    color: white;
+    padding-top: 150px;
+    font-size: 45px;
+}

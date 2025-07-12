@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- <h1 class="animate__animated animate__bounce" style="color: black;">animate</h1> -->
+    <section class="first_nav">
+        <div class="nav1">
+            <h5 class="first1">envato market</h5>
+            <button class="first2">Buy Now</button>
+        </div>
+    </section>
+    <section class="second_nav">
+        <div class="nav2">
+
+            <p class="nav21"> 24 Tech Roqad st Ny 10023</p>
+
+            <p class="nav22"> info123@example.com</p>
+
+            <p class="nav23"> Office Hour : 08:00am - 6:00pm</p>
+
+            <div class="nav_svgs">
+                <svg id="sv1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg>
+                <svg id="sv1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334q.002-.211-.006-.422A6.7 6.7 0 0 0 16 3.542a6.7 6.7 0 0 1-1.889.518 3.3 3.3 0 0 0 1.447-1.817 6.5 6.5 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.32 9.32 0 0 1-6.767-3.429 3.29 3.29 0 0 0 1.018 4.382A3.3 3.3 0 0 1 .64 6.575v.045a3.29 3.29 0 0 0 2.632 3.218 3.2 3.2 0 0 1-.865.115 3 3 0 0 1-.614-.057 3.28 3.28 0 0 0 3.067 2.277A6.6 6.6 0 0 1 .78 13.58a6 6 0 0 1-.78-.045A9.34 9.34 0 0 0 5.026 15" />
+                </svg>
+                <svg id="sv1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+                <svg id="sv1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg>
+            </div>
+        </div>
+    </section>
+    <nav class="main_nav">
+        <div class="container">
+            <div class="main_navs">
+                <h2 class="mainh">CODEIT</h2>
+                <div class="mainst">
+                    <p class="mainp">Home</p>
+                    <p class="mainp">Page</p>
+                    <p class="mainp">Services</p>
+                    <a class="mainp"  href="project.html">Projects</a>
+                    <p class="mainp">Blog</p>
+                    <a  class="mainp" href="contact.html">contact</a>
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg style="margin-bottom: 0px;" width="40px" height="40px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" fill="white" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M7.25007 2.38782C8.54878 2.0992 10.1243 2 12 2C13.8757 2 15.4512 2.0992 16.7499 2.38782C18.06 2.67897 19.1488 3.176 19.9864 4.01358C20.824 4.85116 21.321 5.94002 21.6122 7.25007C21.9008 8.54878 22 10.1243 22 12C22 13.8757 21.9008 15.4512 21.6122 16.7499C21.321 18.06 20.824 19.1488 19.9864 19.9864C19.1488 20.824 18.06 21.321 16.7499 21.6122C15.4512 21.9008 13.8757 22 12 22C10.1243 22 8.54878 21.9008 7.25007 21.6122C5.94002 21.321 4.85116 20.824 4.01358 19.9864C3.176 19.1488 2.67897 18.06 2.38782 16.7499C2.0992 15.4512 2 13.8757 2 12C2 10.1243 2.0992 8.54878 2.38782 7.25007C2.67897 5.94002 3.176 4.85116 4.01358 4.01358C4.85116 3.176 5.94002 2.67897 7.25007 2.38782ZM9 11.5C9 10.1193 10.1193 9 11.5 9C12.8807 9 14 10.1193 14 11.5C14 12.8807 12.8807 14 11.5 14C10.1193 14 9 12.8807 9 11.5ZM11.5 7C9.01472 7 7 9.01472 7 11.5C7 13.9853 9.01472 16 11.5 16C12.3805 16 13.202 15.7471 13.8957 15.31L15.2929 16.7071C15.6834 17.0976 16.3166 17.0976 16.7071 16.7071C17.0976 16.3166 17.0976 15.6834 16.7071 15.2929L15.31 13.8957C15.7471 13.202 16 12.3805 16 11.5C16 9.01472 13.9853 7 11.5 7Z"
+                            fill="#5E2CED" />
+                    </svg>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <section class="hero">
+        <div class="hero_main">
+            <h4 class="hero_h4">EMPOWER YOUR BUSINESS</h4>
+            <h1 class="hero_h1">Excellent It <br> Services For Your <br> Success</h1>
+            <button class="hero_button">Get Started</button>
+        </div>
+    </section>
+    <section class="features">
+        <div class="row gx-4">
+            <div class="col-md-4">
+                <div class="feature_card1">
+                    <p class="feature_first">FEATURES</p>
+                    <h3 class="feature_sec">Some Web App<br> Features We Have</h3>
+                    <button class="feature_button">Learn more</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature_card2">
+                    <img class="feature_card2i" src="https://preetheme.com/html/codeit/assets/img/home-visit.png"
+                        alt="">
+                    <h4 class="feature_card2h">Home Visit</h4>
+                    <p class="feature_card2p">Mauris non tempor quam, et <br> lacinia sapien. Mauris <br> accumsan eros
+                        eget libero <br> lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="feature_card3">
+                    <img class="feature_card3i" src="https://preetheme.com/html/codeit/assets/img/free-consult.png"
+                        alt="">
+                    <h4 class="feature_card3h">Free Consultation</h4>
+                    <p class="feature_card3p">Mauris non tempor quam, et <br> lacinia sapien. Mauris <br> accumsan eros
+                        eget libero <br> lorem ipsum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="about_sec">
+            <div class="part_1">
+                <img src="https://preetheme.com/html/codeit/assets/img/about.jpg" alt="" height="350" width="450"
+                    style="margin-top: 80px; margin-bottom: 80px; margin-left: 30px;">
+            </div>
+            <div class="part_2">
+                <p class="about_p1">ABOUT OUR COMPANY</p>
+                <h2 class="about_main">Logik Award Winning <br> Digital Solutions</h2>
+                <div class="about_buttons">
+                    <button class="about_button1">About Us</button>
+                    <button class="about_button2">Our Mission</button>
+                    <button class="about_button2">Our Vision</button>
+                </div>
+                <div class="part_3">
+                    <h3 class="about_num">25</h3>
+                    <h5 class="about_h4">Years of Experience</h5>
+                </div>
+                <p class="about_p2">We develop innovative and contemporary web <br> and mobile apps which makes the
+                    world a
+                    smaller place <br>
+                    through
+                    faster services.</p>
+                <div class="about_svg">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg class="about_svgs" fill="#5E2CED" width="15px" height="15px" viewBox="0 0 32 32" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>tick-checkbox</title>
+                        <path
+                            d="M0 26.016v-20q0-2.496 1.76-4.256t4.256-1.76h20q2.464 0 4.224 1.76t1.76 4.256v20q0 2.496-1.76 4.224t-4.224 1.76h-20q-2.496 0-4.256-1.76t-1.76-4.224zM4 26.016q0 0.832 0.576 1.408t1.44 0.576h20q0.8 0 1.408-0.576t0.576-1.408v-20q0-0.832-0.576-1.408t-1.408-0.608h-20q-0.832 0-1.44 0.608t-0.576 1.408v20zM7.584 16q0-0.832 0.608-1.408t1.408-0.576 1.408 0.576l2.848 2.816 7.072-7.040q0.576-0.608 1.408-0.608t1.408 0.608 0.608 1.408-0.608 1.408l-8.48 8.48q-0.576 0.608-1.408 0.608t-1.408-0.608l-4.256-4.256q-0.608-0.576-0.608-1.408z">
+                        </path>
+                    </svg>
+                    <h6 class="about_h5">UI/UX Design Journey</h6>
+                </div>
+                <div class="about_svg">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg class="about_svgs" fill="#5E2CED" width="15px" height="15px" viewBox="0 0 32 32" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>tick-checkbox</title>
+                        <path
+                            d="M0 26.016v-20q0-2.496 1.76-4.256t4.256-1.76h20q2.464 0 4.224 1.76t1.76 4.256v20q0 2.496-1.76 4.224t-4.224 1.76h-20q-2.496 0-4.256-1.76t-1.76-4.224zM4 26.016q0 0.832 0.576 1.408t1.44 0.576h20q0.8 0 1.408-0.576t0.576-1.408v-20q0-0.832-0.576-1.408t-1.408-0.608h-20q-0.832 0-1.44 0.608t-0.576 1.408v20zM7.584 16q0-0.832 0.608-1.408t1.408-0.576 1.408 0.576l2.848 2.816 7.072-7.040q0.576-0.608 1.408-0.608t1.408 0.608 0.608 1.408-0.608 1.408l-8.48 8.48q-0.576 0.608-1.408 0.608t-1.408-0.608l-4.256-4.256q-0.608-0.576-0.608-1.408z">
+                        </path>
+                    </svg>
+                    <h6 class="about_h5">Software Consulting</h6>
+
+                </div>
+                <button class="about_button">View Details</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="service_head">
+                <p class="servicep">OUR SERVICES</p>
+                <h2 class="serviceh">Our IT Solutions & Services for <br>
+                    Your Business</h2>
+            </div>
+            <!-- <div class="row gx-3">
+                <div class="col-md-4">
+                    <div class="service_cards">
+                        <div class="service_card">
+                            <?xml version="1.0" encoding="utf-8"?>
+                            <svg width="85px" height="75px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2 2H22V22H2V2ZM9 8C9 7.44772 9.44772 7 10 7H14C14.5523 7 15 7.44772 15 8V16C15 16.5523 14.5523 17 14 17H10C9.44772 17 9 16.5523 9 16V8ZM10 9H14V15H10V9Z"
+                                    fill="#5E2CED" />
+                            </svg>
+                            <div class="service_words">
+                            <h5 class="servicesh">Mobile development</h5>
+                            <p class="servicesp">Arose mr rapid in so vexed<br>words. Gay welcome led<br>add to lasting
+                                chiefly say to<br>looking for better.</p>
+                            </div>
+                        </div>
+                        <div class="service_card">
+                            <?xml version="1.0" encoding="utf-8"?>
+                            <svg fill="#000000" width="60px" height="55px" viewBox="0 0 512 512"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M109.46 244.04l134.58-134.56-44.12-44.12-61.68 61.68a7.919 7.919 0 0 1-11.21 0l-11.21-11.21c-3.1-3.1-3.1-8.12 0-11.21l61.68-61.68-33.64-33.65C131.47-3.1 111.39-3.1 99 9.29L9.29 99c-12.38 12.39-12.39 32.47 0 44.86l100.17 100.18zm388.47-116.8c18.76-18.76 18.75-49.17 0-67.93l-45.25-45.25c-18.76-18.76-49.18-18.76-67.95 0l-46.02 46.01 113.2 113.2 46.02-46.03zM316.08 82.71l-297 296.96L.32 487.11c-2.53 14.49 10.09 27.11 24.59 24.56l107.45-18.84L429.28 195.9 316.08 82.71zm186.63 285.43l-33.64-33.64-61.68 61.68c-3.1 3.1-8.12 3.1-11.21 0l-11.21-11.21c-3.09-3.1-3.09-8.12 0-11.21l61.68-61.68-44.14-44.14L267.93 402.5l100.21 100.2c12.39 12.39 32.47 12.39 44.86 0l89.71-89.7c12.39-12.39 12.39-32.47 0-44.86z" />
+                            </svg>
+                            <h5 class="servicesh">Mobile development</h5>
+                            <p class="servicesp">Arose mr rapid in so vexed <br> words. Gay welcome led <br> add to
+                                lasting chiefly say to <br>
+                                looking
+                                for better.</p>
+                        </div>
+                        <div class="service_card">
+                            <?xml version="1.0" encoding="utf-8"?>
+                            <svg fill="#000000" width="70px" height="80px" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M5.00170669,13.8298969 C3.83562289,13.4185428 3,12.3068565 3,11 C3,9.34314575 4.34314575,8 6,8 L10.5,8 C12.3903167,8 14.9801602,7.02880867 18.2427521,5.07125354 C18.5760144,4.87129618 19,5.11135276 19,5.5 L19,8.05000906 C20.1411202,8.28164422 21,9.29052104 21,10.5 L21,11.5 C21,12.709479 20.1411202,13.7183558 19,13.9499909 L19,16.5 C19,16.8886472 18.5760144,17.1287038 18.2427521,16.9287465 C14.9801602,14.9711913 12.3903167,14 10.5,14 L9.2201251,14 C9.0678017,14.1860246 9,14.3517684 9,14.5 C9,14.432231 9.02625595,14.454111 9.2236068,14.5527864 C9.77625595,14.829111 10,15.0155644 10,15.5 C10,15.8518546 9.88416309,16.0623037 9.6404906,16.3233813 L9.61552763,16.3500877 C9.51371265,16.4591752 9.50048722,16.4824574 9.50001372,16.5663905 C9.50024194,16.5254852 9.50665482,16.5279141 9.68282619,16.5971243 C9.70200403,16.6046464 9.70200403,16.6046464 9.72194333,16.6124567 C10.2536797,16.8209311 10.5,17.0060084 10.5,17.5 C10.5,17.980602 10.2734952,18.4336116 9.85355339,18.8535534 C8.32825811,20.3788487 6.96930232,20.6053413 6.08397485,19.2773501 C5.3781604,18.2186284 5.02876957,16.4109685 5.00170669,13.8298969 L5.00170669,13.8298969 Z M6.00416058,14 C6.04329261,16.3034606 6.35772274,17.8851963 6.91602515,18.7226499 C7.36403101,19.3946587 8.00507523,19.287818 9.14644661,18.1464466 C9.38007417,17.912819 9.48826385,17.7088417 9.49909193,17.5298657 C9.48801145,17.5934105 9.45814899,17.5831432 9.35693114,17.5434594 C9.33746965,17.5358364 9.33746965,17.5358364 9.31717381,17.5278757 C8.77230016,17.3138182 8.5,17.0966264 8.5,16.5714286 C8.5,16.180348 8.62432483,15.946499 8.88447237,15.6677694 L8.90943533,15.6410631 C8.98408603,15.5610802 8.99730229,15.5450097 8.99955413,15.5159481 C8.99414155,15.5633841 8.95658676,15.5373104 8.7763932,15.4472136 C8.22374405,15.170889 8,14.9844356 8,14.5 C8,14.3297914 8.02840987,14.1630437 8.0837607,14 L6.00416058,14 L6.00416058,14 Z M19,9.08535285 L19,12.9146471 C19.5825962,12.7087289 20,12.1531094 20,11.5 L20,10.5 C20,9.84689059 19.5825962,9.29127106 19,9.08535285 Z M11,8.98160857 L11,13.0183914 C12.8711319,13.1529593 15.1990309,14.0257092 18,15.627404 L18,6.37259596 C15.1990309,7.97429077 12.8711319,8.84704072 11,8.98160857 L11,8.98160857 Z M10,13 L10,9 L6,9 C4.8954305,9 4,9.8954305 4,11 C4,12.1045695 4.8954305,13 6,13 L10,13 Z" />
+                            </svg>
+                            <h5 class="servicesh">Mobile development</h5>
+                            <p class="servicesp">Arose mr rapid in so vexed <br> words. Gay welcome led <br> add to
+                                lasting chiefly say to <br>
+                                looking
+                                for better.</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section class="works">
+        <div class="work">
+            <div class="secel1">
+                <p class="work_head">WORKS ABOUT</p>
+                <h3 class="work_heads">Trusted by 5,000+ Happy <br> Customers</h3>
+                <p class="work_text">It is a long established fact that a reader will be <br> distracted by the readable
+                    content of a page
+                    when <br> looking at its layout. The point of using Lorem Ipsum is <br> that it has a more-or-less
+                    normal
+                    distribution of letters.
+                </p>
+                <h5 class="work_talk">100% satisfied Customers</h5>
+                <h5 class="work_talk">world class workers</h5>
+                <button class="work_button">Completed Projects</button>
+            </div>
+            <div class="secel2"></div>
+            <img class="works_img" src="https://preetheme.com/html/codeit/assets/img/works-about.jpg" alt="">
+        </div>
+    </section>
+    <section class="latest">
+        <div class="latest_head">
+            <p class="latest_head1">LATEST PROJECTS</p>
+            <h2 class="latest_head2">Some Of Our Work</h2>
+        </div>
+        <div class="latest_images1">
+            <img class="latest_images" src="https://preetheme.com/html/codeit/assets/img/project/1.jpg" alt="">
+            <img class="latest_images" src="https://preetheme.com/html/codeit/assets/img/project/2.jpg" alt="">
+            <img class="latest_images" src="https://preetheme.com/html/codeit/assets/img/project/3.jpg" alt="">
+        </div>
+        <div class="latest_images2">
+            <img class="latest_images3" src="https://preetheme.com/html/codeit/assets/img/project/4.jpg" alt="">
+            <img class="latest_images3" src="https://preetheme.com/html/codeit/assets/img/project/5.jpg" alt="" sizes=""
+                srcset="">
+            <img class="latest_images3" src="https://preetheme.com/html/codeit/assets/img/project/6.jpg" alt="">
+        </div>
+
+    </section>
+    <section class="numbers">
+        <div class="container">
+            <div class="row gx-3">
+                <div class="col-md-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0" />
+                    </svg>
+                    <h2 class="numbersh">201+</h2>
+                    <h5 class="numbersh2">Projects Completed</h5>
+                </div>
+                <div class="col-md-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0" />
+                    </svg>
+                    <h2 class="numbersh">201+</h2>
+                    <h5 class="numbersh2">Projects Completed</h5>
+                </div>
+                <div class="col-md-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0" />
+                    </svg>
+                    <h2  class="numbersh">201+</h2>
+                    <h5 class="numbersh2">Projects Completed</h5>
+                </div>
+                <div class="col-md-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-list-check" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5M3.854 2.146a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 3.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708L2 7.293l1.146-1.147a.5.5 0 0 1 .708 0m0 4a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0" />
+                    </svg>
+                    <h2  class="numbersh">201+</h2>
+                    <h5 class="numbersh2">Projects Completed</h5>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="more">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="more_div"></div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="blue"
+                        class="bi bi-play-circle" viewBox="0 0 16 16 " style="color: white;">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+                        <path
+                            d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445" />
+                    </svg>
+                    <h2 class="more_head">We Provide Outsourced IT Services For<br> Small & Mid-Sized Business</h2>
+                    <h5 class="more_heads">Appropriate for your specific business, making it easy for you to <br> have
+                        quality IT services. What We Do</h5>
+                    <button class="more_button">More Services</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="what">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-md-6">
+                    <div class="what1">
+                        <p class="whats">WHAT WE DO</p>
+                        <h3 class="whath">We Help You to Grow Your Business Exponentially </h3>
+                        <h5 class="what_heads"> ui/ux design</h5>
+                        <h5 class="what_heads"> App development</h5>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="what2">
+                        <img src="https://preetheme.com/html/codeit/assets/img/testimonial.png" alt=""
+                            class="round_image">
+                        <p class="whate">In publishing and graphic design, lorem ispup is <br> a placeholder text
+                            commonly used to demonstrate the <br>visual form of a document or a type face without. </p>
+                        <!-- <div class="what_svgs">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16">
+                                <path
+                                    d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-star-fill" viewBox="0 0 16 16"></svg>
+                            <path
+                                d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                            </svg>
+                        </div> -->
+                        <h3 class="work_name">JOHN AMANDA</h3>
+                        <p class="work_job">App Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="recent">
+        <div class="">
+            <div class="recent_head">
+                <p class="recent_head1">RECENT ARTICLES</p>
+                <h2 class="recent_head2">Latest News from Us</h2>
+                <div class="row gx-3">
+                    <div class=" col-md-4">
+                        <div class="recent_cards">
+                            <div class="recent_card">
+                                <img src="https://preetheme.com/html/codeit/assets/img/blog/1.jpg" alt="" height="170"
+                                    width="300">
+                                <p class="rcard_time">12 September 2021 .
+                                    Technology</p>
+                                <h3 class="rcard_tags">What’s the Holding Back the It Solution Industry?</h3>
+
+                                <p class="rcard_text">In a lobortis lorem. Duis ultrices, lorem id tristique tempus,
+                                    massa ligula ornare erat, id mattis sem diam ac ante</p>
+
+                            </div>
+                            <div class="recent_card">
+                                <img src="https://preetheme.com/html/codeit/assets/img/blog/2.jpg" alt="" height="170"
+                                    width="300">
+                                <p class="rcard_time">12 September 2021 .
+                                    Technology</p>
+                                <h3 class="rcard_tags">What’s the Holding Back the It Solution Industry?</h3>
+
+                                <p class="rcard_text">In a lobortis lorem. Duis ultrices, lorem id tristique tempus,
+                                    massa ligula ornare erat, id mattis sem diam ac ante</p>
+
+                            </div>
+                            <div class="recent_card">
+                                <img src="https://preetheme.com/html/codeit/assets/img/blog/3.jpg" alt="" height="170"
+                                    width="300">
+                                <p class="rcard_time">12 September 2021 .
+                                    Technology </p>
+                                <h3 class="rcard_tags">What’s the Holding Back the It Solution Industry?</h3>
+
+                                <p class="rcard_text">In a lobortis lorem. Duis ultrices, lorem id tristique tempus,
+                                    massa ligula ornare erat, id mattis sem diam ac ante</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="email">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="mail1"></div>
+                    <h2 class="mail11">Subscribe to our Newsletter</h2>
+                    <p class="mail12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum dui in
+                        suscipit congue......</p>
+                </div>
+                <div class="col-md-5">
+                    <div class="mail2 mt-5">
+                        <input id="mail" type="text" class="form-control mb-1" placeholder=" Enter Address">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="me">cocballs</div>
+    <button id="hide">hide</button>
+    <button id="shock"> shock</button> -->
+    <footer id="footer">
+        <div class="row footer_head">
+            <div class="col-md-10">
+                <ul class="footer_links">
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Privcy</li>
+                    <li>Pricing Plan</li>
+                    <li>Contact Us</li>
+
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-whatsapp" viewBox="0 0 16 16">
+                    <path
+                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-twitter-x" viewBox="0 0 16 16">
+                    <path
+                        d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                </svg>
+
+            </div>
+        </div>
+        <div class="container">
+            <hr style="height: 3px; border: none; color:#413937 ; background-color: #413937; margin: 15px 0px;">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>SWAY</h4>
+                    <p>Our feet are on the ground, but our ambitions are above the clouds. Here is how we move from the
+                        getting to know you phase to creating something remarkable.</p>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_menu">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li>about Sway</li>
+                            <li>Plans & Pricing</li>
+                            <li>Services</li>
+                            <li>Blog</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_menu">
+                        <h4>Products</h4>
+                        <ul>
+                            <li>Primary blocks</li>
+                            <li>Content blocks</li>
+                            <li>Info-graphic blocks</li>
+                            <li>Business blocks</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_menu">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li>Support center</li>
+                            <li>Documentation</li>
+                            <li>Newsletter</li>
+                            <li>Changelog</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="footer_menu">
+                        <h4>Follow Us</h4>
+                        <ul>
+                            <li>Twitter</li>
+                            <li>Dribble</li>
+                            <li>Facebook</li>
+                            <li>Linkedin</li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+                <div class="container">
+                    <hr style="height: 3px; border: none; color:#413937 ; background-color: #413937; margin: 15px 0px;">
+                </div>
+                <div class="footer_end">© 2024 Sway by KeyDesign. All Rights Reserved. Terms of UsePrivacy Policy</div>
+    </footer>
+
+    <!-- <h1 id="subject">hello world</h1>
+<button onclick="test()">click me</button>
+<p id="frogjump"></p> -->
+    <!-- <button onclick="changeText(this)">Click on this text!</button>
+
+<button onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+mouse over me</button>
+
+<div onmousedown="mDown(this)" onmouseup="mUp(this)"
+style="background-color:#D94A38;width:90px;height:20px;padding:40px;">
+Click Me</div> -->
+
+
+    <script src="style.js"></script>
+</body>
+
+</html>
